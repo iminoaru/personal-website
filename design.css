@@ -46,5 +46,4 @@ img{
 img:hover{ /*hover make the shape round when cursor is taken over it.*/
   background-color: powderblue;
   border-radius: 100%;
-
 }
