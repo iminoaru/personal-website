@@ -3,44 +3,46 @@
 div{
     margin: 0;
     background-color: #333F44;
+    display: block;
 }
 body{
-    background-color: #0F0E12;
+    background-color:#eff6f5 ;
     margin: 0;
 }
 
 hr{
   border-style: none;
   border-top-style: dotted;
-  border-color: #333F44;
+  border-color: #d4e7e4;
   border-width: 5px;
   width: 200px;
 }
 
 h1{
   color: #37AA9C;
-  font-size: 60px;
-  font-family: "URW Chancery L" , cursive;; }
-
-
+  font-size: 6em;
+  font-family: 'Sacramento', cursive;
+}
 
 h2{
-  color: #37AA9C;
-  font-size: 30px;
+  color: #2c887c;
+  font-size: 40px;
   font-family: "Andale Mono", monospace;
 }
 
 h3{
-  color: #94F3E4;
+  color: #2c887c;
   font-size: 25px;
 }
 
 table{
-    color: #94F3E4;
+    color: #37AA9C;
     font-size: 20px;
 }
 
-
+span{
+  color: #FAF9F6;
+}
 /*--------------------CLASS SELECTOR------------------*/
 
 
@@ -49,70 +51,115 @@ table{
 
 }
 .intro1{
-  width: 55%;
-  margin: auto;
+  color: #37AA9C;
+  width: auto;
+  text-align: center;
   padding-top: 30px;
-  padding-bottom: 15px;
+  margin: 0;
+
 }
 .intro2{
-  width: 72%;
-  margin: auto;
+  color: #37AA9C;
+  width: auto;
+  text-align: center;
+  margin-top: 10px;
 }
 .intro3{
   color:  #FAF9F6;
-  width: 49%;
-  margin: auto;
-  padding-bottom: 30px;
+  width: auto;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #37AA9C;
+  font-weight: bolder;
+  padding-bottom: 50px;
 }
+
 .contactlink{
   text-align: center;
   font-family: sans-serif;
   font-size: 35px;
 
 }
+/*********************************************/
 
-
+.aboutimage{
+  background-color: #eff6f5;
+  width: 25%;
+  float: left;
+  margin-right: 150px;
+}
 .me{
-  text-align:  center;
-  background-color: #0F0E12;
-  color: #37AA9C;
+  text-align:  left;
+  background-color: #eff6f5;
+  color:  #14191b;
   font-family: "Lucida Sans" , sans-serif;
-  font-size: 22px;
+  font-size: 20px;
+
 }
 
-.pro{
-    text-decoration: underline;
-}
-.skills{
-  font-size: 40px;
-  text-align: center;
-  color: #94F3E4;
-/*  width: 8.5%;
-  margin: 0 auto 0 auto;*/
-}
 
 .aboutme{
-    font-size: 40px;
-    text-align: center;
-    color: #94F3E4;
-}
-img{
-  border-radius: 15%;
+
+  width: 70%;
+  background-color: #eff6f5;
+  text-align: left;
+  margin: auto;
 }
 
-img:hover{ /*hover make the shape round when cursor is taken over it.*/
-  background-color: powderblue;
-  border-radius: 100%;
+
+.about{
+  text-align: left;
+  font-size: 50px;
+  color: #2c887c;
+  float: left;
+  background-color: #eff6f5;
+}
+
+/*********************************/
+
+.skills{
+
+  width: 70%;
+  background-color: #eff6f5;
+  text-align: left;
+  margin: auto;
+}
+
+.skillshead{
+
+  text-align: left;
+  font-size: 50px;
+  color: #2c887c;
+
+  background-color: #eff6f5;
+}
+
+.skillimg{
+  background-color: #eff6f5;
+  width: 25%;
+  float: right;
+  margin-right: 50px;
+}
+
+.skillabout{
+  text-align:  left;
+  background-color: #eff6f5;
+  color:  #14191b;
+  font-family: "Lucida Sans" , sans-serif;
+  font-size: 20px;
 
 }
 
-.star-table{
-  padding-left: 50px;
-  font-family: sans-serif;
-  font-size: 25px;
-}
+/**********************************************/
 
 .contact{
-  width: 50%;
-  margin-left: 600px;
+  font-size: 50px;
+  width: auto;
+  text-align: center;
 }
+
+img:hover{
+  border-radius: 100%;
+  background-color: powderblue;
+}
+
