@@ -110,6 +110,7 @@ span{
 .about{
   text-align: left;
   margin: auto;
+  width: auto;  
   font-size: 50px;
   color: #2c887c;
   float: left;
