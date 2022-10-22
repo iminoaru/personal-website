@@ -109,8 +109,7 @@ span{
 
 .about{
   text-align: left;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin: auto;
   width: auto;  
   font-size: 50px;
   color: #2c887c;
