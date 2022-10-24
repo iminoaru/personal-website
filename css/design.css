@@ -2,12 +2,20 @@
 
 div{
     margin: 0;
-    background-color: #333F44;
+
     display: block;
 }
+
+.top{
+  background-color: #333F44;
+  background-image: url(https://images.squarespace-cdn.com/content/v1/5cd031df7fdcb8d22151af3e/1559324655741-0Y5B3BS3M4P16MPCEGL1/elizabethan-dunfermline-wallpaper-black.jpg?format=2500w);
+
+}
+
 body{
-    background-color:#eff6f5 ;
-    margin: 0;
+  background-color:#eff6f5 ;
+  background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhX9VK2kV-lxwcVS9CYJx-PTwOqk3tXcrrwRd5gxKPnMhWICb9f6MGeNueHkSXFVz2R-gk3O6S5DwKXdf6F22AfLl-sRDs4_JIlnN-n3otmuOhxITVJwvUByf_uOobk2B3q058kNt_QZduJoaCJWOvw_m_X3zKC6XRf01T4cPfOtoVDSzO5a5O_4rKy/w383-h590/bg.jpg);
+  margin: 0;
 }
 
 hr{
@@ -20,7 +28,7 @@ hr{
 
 h1{
   color: #37AA9C;
-  font-size: 6em;
+  font-size: 7.8em;
   font-family: 'Sacramento', cursive;
 }
 
@@ -43,8 +51,8 @@ table{
 span{
   color: #FAF9F6;
 }
-/*--------------------CLASS SELECTOR------------------*/
 
+/*--------------------CLASS SELECTOR------------------*/
 
 .intro{
   width: 100%;
@@ -54,7 +62,8 @@ span{
   color: #37AA9C;
   width: auto;
   text-align: center;
-  padding-top: 30px;
+  padding-top: 100px;
+  padding-bottom: 40px;
   margin: 0;
 
 }
@@ -71,73 +80,57 @@ span{
   text-decoration: underline;
   text-decoration-color: #37AA9C;
   font-weight: bolder;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
 }
 
 .contactlink{
   text-align: center;
   font-family: sans-serif;
   font-size: 35px;
-
 }
 /*********************************************/
 
 .aboutimage{
-  background-color: #eff6f5;
   width: 25%;
   float: left;
   margin-right: 150px;
 }
+
 .me{
   text-align:  left;
-  background-color: #eff6f5;
   color:  #14191b;
   font-family: "Lucida Sans" , sans-serif;
   font-size: 20px;
-
 }
 
-
 .aboutme{
-
   width: 70%;
-  background-color: #eff6f5;
   text-align: left;
   margin: auto;
 }
-
 
 .about{
   text-align: left;
-  margin: auto;
-  width: auto;  
   font-size: 50px;
   color: #2c887c;
   float: left;
-  background-color: #eff6f5;
 }
 
 /*********************************/
 
 .skills{
-
   width: 70%;
-  background-color: #eff6f5;
   text-align: left;
   margin: auto;
 }
 
 .skillshead{
-
   text-align: left;
   font-size: 50px;
   color: #2c887c;
-
-  background-color: #eff6f5;
 }
 
 .skillimg{
-  background-color: #eff6f5;
   width: 25%;
   float: right;
   margin-right: 50px;
@@ -145,28 +138,24 @@ span{
 
 .skillabout{
   text-align:  left;
-  background-color: #eff6f5;
   color:  #14191b;
   font-family: "Lucida Sans" , sans-serif;
   font-size: 20px;
-
 }
 
 /**********************************************/
 .contactme{
-  background-color: #eff6f5;
   color: #40514E;
   text-align: center;
   font-family: "Lucida Sans" , sans-serif;
   }
 
-  .contact-message{
-    background-color: #eff6f5;
-    text-align: center;
-    color:  #14191b;
-    font-size: 20px;
-    font-family: "Lucida Sans" , sans-serif;
-  }
+.contact-message{
+  text-align: center;
+  color:  #14191b;
+  font-size: 20px;
+  font-family: "Lucida Sans" , sans-serif;
+}
 
   .btn {
   background: #2c887c;
@@ -194,9 +183,11 @@ span{
   background-image: linear-gradient(to bottom, #10594e, #3498db);
   text-decoration: none;
 }
+
 .footer{
 font-size: 20px;
 color: #eff6f5;
+background-image: url(https://images.squarespace-cdn.com/content/v1/5cd031df7fdcb8d22151af3e/1559324655741-0Y5B3BS3M4P16MPCEGL1/elizabethan-dunfermline-wallpaper-black.jpg?format=2500w);
 text-align: center;
 font-family: "Lucida Sans" , sans-serif;
 background-color: #333F44;
@@ -207,14 +198,6 @@ padding: 50px 0 30px;
 text-align: center;
 color: #2c887c;
 font-family: "Andale Mono", monospace;
-margin: 10px 30px;
+margin: 10px 35px;
 text-decoration: none;
-}
-.footer-link:hover {
-  color: #eff6f5;
-}
-
-img:hover{
-  border-radius: 100%;
-  background-color: powderblue;
 }
