@@ -233,6 +233,13 @@ margin: 10px 35px;
 text-decoration: none;
 }
 
-.footer-icon:hover{
-  transform: scale(1.5);
+.footer-icon{
+  transition: transform .4s;
 }
+
+.footer-icon:hover{
+  transform: scale(1.3) rotate(5deg);
+  
+}
+
+
