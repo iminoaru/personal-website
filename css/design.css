@@ -64,8 +64,8 @@ span{
   text-align: center;
   padding-top: 100px;
   padding-bottom: 40px;
+  margin: 0;
   transition: transform .8s;
-
 }
 
 .intro1:hover{
